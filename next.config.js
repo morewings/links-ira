@@ -6,7 +6,7 @@ module.exports = {
     cleanDistDir: true,
     images: {unoptimized: true},
     // Set to deploy at GitHub pages or other non-index page url
-    basePath: '/next-card',
+    basePath: '/links-ira',
     // Required to compile vCard
     webpack(config) {
         config.resolve.fallback = {

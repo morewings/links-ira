@@ -1,16 +1,9 @@
 import {
     Envelope,
-    PhoneCall,
-    WhatsappLogo,
     TelegramLogo,
-    MessengerLogo,
     LinkedinLogo,
-    GithubLogo,
     FileText,
-    YoutubeLogo,
-    StackOverflowLogo,
-    Calendar,
-    DevToLogo,
+    Scroll,
 } from '@phosphor-icons/react/dist/ssr';
 
 import type {Config} from '@/types';
@@ -18,9 +11,9 @@ import image from '@/card-image.jpg';
 
 export const config: Config = {
     // Set your or company name
-    title: 'Patrick Bateman',
+    title: 'Irina Ikhilchik',
     // Add a brief description to display below name
-    bio: 'Specialist in mergers and acquisitions',
+    bio: 'BASF Senior expert',
     // Select a background style
     background: 'sunset',
     cardImage: image,
@@ -33,88 +26,54 @@ export const config: Config = {
         {
             title: 'Email',
             id: 'email',
-            url: 'mailto:user@example.com',
+            url: 'mailto:irina.ikhilchik@gmail.com',
             icon: Envelope,
-        },
-        {
-            title: 'Call',
-            id: 'phone',
-            url: 'tel:+491234567890',
-            icon: PhoneCall,
-        },
-        {
-            title: 'Whatsapp',
-            id: 'whatsapp',
-            url: 'https://wa.me/491234567890',
-            icon: WhatsappLogo,
         },
         {
             title: 'Telegram',
             id: 'telegram',
-            url: 'https://t.me/userName',
+            url: 'https://t.me/mademoiselle_ii',
             icon: TelegramLogo,
-        },
-        {
-            title: 'Messenger',
-            id: 'meta-messenger',
-            url: 'http://m.me/PAGE-NAME?text=Hello%20and%20Welcome',
-            icon: MessengerLogo,
         },
     ],
     // Set main links
     mainLinks: [
         {
-            id: 'cv',
-            title: 'Download CV',
-            url: 'https://example.com',
-            icon: FileText,
-        },
-        {
-            id: 'calendar',
-            title: 'Book a call with me',
-            url: 'https://example.com',
-            icon: Calendar,
-        },
-        {
-            id: 'github',
-            title: 'GitHub',
-            url: 'https://github.com/user-name',
-            icon: GithubLogo,
-        },
-        {
             id: 'linkedin',
             title: 'LinkedIn',
-            url: 'https://www.linkedin.com/in/userName/',
+            url: 'https://www.linkedin.com/in/irina-ikhilchik-9760441/',
             icon: LinkedinLogo,
         },
         {
-            id: 'youtube',
-            title: 'Youtube channel',
-            url: 'https://www.youtube.com/@user-name',
-            icon: YoutubeLogo,
+            id: 'english-articles',
+            title: 'My articles in English',
+            url: 'https://onlinelibrary.wiley.com/authored-by/Ikhilchik/Irina',
+            icon: FileText,
         },
         {
-            id: 'stackoverflow',
-            title: 'Stack Overflow profile',
-            url: 'https://example.com',
-            icon: StackOverflowLogo,
+            id: 'russian-articles',
+            title: 'My articles in Russian / Мои статьи на русском',
+            url: 'https://cyberleninka.ru/article/n/primenimost-modeli-sozdaniya-znaniy-seci-v-rossiyskom-kulturnom-kontekste-teoreticheskiy-analiz',
+            icon: FileText,
         },
         {
-            id: 'devto',
-            title: 'Dev.to articles',
-            url: 'https://dev.to/user-name',
-            icon: DevToLogo,
+            id: 'english-articles-2',
+            title: 'Applicability of the SECI Model of knowledge creation in Russian cultural context: Theoretical analysis',
+            url: 'https://onlinelibrary.wiley.com/authored-by/Ikhilchik/Irina',
+            icon: Scroll,
+        },
+        {
+            id: 'russian-articles-2',
+            title: 'Применимость модели создания знаний SECI в российском культурном контексте: теоретический анализ',
+            url: 'https://cyberleninka.ru/article/n/primenimost-modeli-sozdaniya-znaniy-seci-v-rossiyskom-kulturnom-kontekste-teoreticheskiy-analiz',
+            icon: Scroll,
         },
     ],
     vCard: {
-        firstName: 'Patrick',
-        lastName: 'Bateman',
-        organization: 'Pierce & Pierce',
-        title: 'Vice President',
-        birthday: new Date(1961, 9, 23),
-        workPhone: '+1 212 555 6342',
-        email: 'patrick@psycho.us',
-        // Enable to display contact as a company
-        // isOrganization: true,
+        firstName: 'Irina',
+        lastName: 'Ikhilchik',
+        organization: 'BASF',
+        title: 'Senior Expert',
+        email: 'irina.ikhilchik@gmail.com',
     },
 };
