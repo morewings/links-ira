@@ -46,13 +46,13 @@ export const config: Config = {
         },
         {
             id: 'english-articles',
-            title: 'My articles in English',
+            title: 'My publications in English',
             url: 'https://onlinelibrary.wiley.com/authored-by/Ikhilchik/Irina',
             icon: FileText,
         },
         {
             id: 'russian-articles',
-            title: 'My articles in Russian / Мои статьи на русском',
+            title: 'My publications in Russian / Мои статьи на русском',
             url: 'https://cyberleninka.ru/article/n/primenimost-modeli-sozdaniya-znaniy-seci-v-rossiyskom-kulturnom-kontekste-teoreticheskiy-analiz',
             icon: FileText,
         },
